@@ -1,0 +1,40 @@
+.footer {
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: var(--primary-color);
+    padding: 20px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 17px;
+    margin: auto;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+i {
+    color:var(--accent-color);
+    padding: 0px 10px;
+}
+
+
+
+.col-lg-6 {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+}
