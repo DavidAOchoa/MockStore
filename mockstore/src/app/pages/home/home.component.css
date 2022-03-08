@@ -1,0 +1,35 @@
+.home {
+    min-height: min-content;
+    position: sticky;
+    display: flex;
+    background-color: var(--primary-color);
+    height: 60%;
+}
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* margin-bottom: auto; */
+ 
+    object-fit: cover; 
+    margin-bottom: -400px;
+    
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+ 

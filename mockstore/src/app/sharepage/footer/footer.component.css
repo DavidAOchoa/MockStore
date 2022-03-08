@@ -4,37 +4,37 @@
     top: 100%;
     background-color: var(--primary-color);
     padding: 20px 10px;
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-content: center;
    
 }
 
+.row {
+    /* display:flex;
+    align-items: center;
+    justify-content:flex-start; */
+}
+
 h1 {
-    color: white;
+    color: var(--accent-color);
     font-size: 20px;
 }
 
 a {
-    color: white;
+    color: var(--accent-color);
     text-decoration: none;
     padding: 0px 5px;
     font-size: 17px;
-    margin: auto;
+  
 }
 
 a:hover {
-    color: var(--accent-color);
+   filter: brightness(85%);
 }
 
-i {
-    color:var(--accent-color);
-    padding: 0px 10px;
-}
+.col-lg-2 {
 
-
-
-.col-lg-6 {
     font-family: 'Staatliches', cursive;
     letter-spacing: 3px;
 }
